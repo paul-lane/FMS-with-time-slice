@@ -1,0 +1,9 @@
+.false.                            ! Choose Gaussians (TRUE) or Discharge square wave (FALSE)
+100.0D-06            		!discharge pulse length / s
+4                                 ! No. of gaussians for time of valve opening (needs to be at least 1, even if not used!)
+8 110 10 8                       !Weights of time Gaussians (at least one - must agree with number given in previous line!)
+295.2D-06 243.2D-06 203.2D-06 180.0D-06      !Centre times of Gaussians / s (as above)
+12.5D-06 32.5D-06 12.5D-06 10.0D-06            !Standard deviations of Gaussians / s (as above)
+10.0D-06 		!initial time of probe / s
+550.0D-06 	    	!final time of probe / s
+1.0D-06 		!time step between probes / s

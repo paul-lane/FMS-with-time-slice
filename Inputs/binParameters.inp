@@ -1,0 +1,5 @@
+!Binning parameters for transverse speed
+75	550	! Time range of existing data
+.false.		! Normalize absorption and FM absorption?
+1	! Number of outputs (start / end points listed below values much match up to a time point in AppProfile)
+75	550
